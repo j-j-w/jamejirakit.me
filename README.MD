@@ -1,4 +1,11 @@
 # Jirakit Wattanapraphakorn
-Hi everyone, My name is jame. I will develop my portfolio, Please follow me.
+Personal website
 
-Let's go
+## Version
+1.0
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2020-present, Jirakit Wattanapraphakorn
