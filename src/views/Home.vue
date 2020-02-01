@@ -1,18 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vue-typer
+      :text="texts"
+    />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import { VueTyper } from 'vue-typer'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    VueTyper
+  },
+  data () {
+    return {
+      texts: []
+    }
   }
 }
 </script>
