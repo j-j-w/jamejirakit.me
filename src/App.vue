@@ -18,5 +18,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="css">
+  body {
+    font-family: 'Hack'
+  }
 </style>
