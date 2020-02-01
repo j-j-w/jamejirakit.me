@@ -1,15 +1,22 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <q-layout view="lHh Lpr lFf">
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+  </q-layout>
 </template>
 
-<style>
-#app {
-  font-family: 'Hack';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+
+export default {
+  name: 'LayoutDefault',
+  data () {
+    return {
+      leftDrawerOpen: false
+    }
+  }
 }
+</script>
+
+<style>
 </style>
