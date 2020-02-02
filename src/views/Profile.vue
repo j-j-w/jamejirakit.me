@@ -2,7 +2,7 @@
   <div class="portfolio">
     <template v-if="$q.screen.xs || $q.screen.sm">
       <div class="col-12 text-center">
-        <q-avatar size="120px" rounded class="q-mt-md">
+        <q-avatar size="120px" class="q-mt-sm" rounded>
           <q-img
             :src="require('@/assets/4.jpg')"
             style="height:100%;width:100%"
@@ -11,7 +11,7 @@
         </q-avatar>
       </div>
       <div class="col-12 q-mt-md">
-        <q-scroll-area :style="screenHeight">
+        <q-scroll-area :style="screenSmHeight">
           <div class="q-my-md q-mx-lg">
             <div class="row text-h4 q-mb-sm text-weight-bold">Myself</div>
             <div class="row text-body2">
@@ -376,14 +376,15 @@
 <script>
 export default {
   name: 'portfolio',
-  data () {
-    return {
-    }
-  },
   computed: {
     screenHeight () {
       return {
-        'height': `${this.$q.screen.height - 160}px`
+        height: `${this.$q.screen.height}px`
+      }
+    },
+    screenSmHeight () {
+      return {
+        height: `${this.$q.screen.height - 145}px`
       }
     }
   }
