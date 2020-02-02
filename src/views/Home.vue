@@ -1,6 +1,5 @@
 <template>
-  <div class="home bg-green-1">
-    <q-btn class="absolute-top-right q-mr-lg q-mt-sm" flat round color="black" icon="menu" />
+  <div class="home">
     <div class="row items-center text-h3 text-weight-regular" :style="screenHeight">
       <div class="col-12 text-center">
         <vue-typer
@@ -11,8 +10,8 @@
           :pre-type-delay='70'
           :type-delay='70'
           :pre-erase-delay='2500'
-          :erase-delay='45'
-          erase-style='backspace'
+          :erase-delay='43'
+          erase-style='clear'
           :erase-on-complete='false'
           caret-animation='blink'
         />
@@ -34,12 +33,17 @@ export default {
       texts: [
         'Hi, I\'m Jame.',
         'Jirakit Wattanapraphakorn',
+        'I\'m fine.',
         'I love coding.',
+        'I\'m ready. Are you ready ?',
         'I\'m Fullstack Developer.',
         'I\'m a slave cat & dog.',
+        'How are you ?',
+        'Genius is 1 inspiration and 99 perspiration.',
         'EDM Addicts.',
         'Liverpool is the real champion. (lol)',
-        'Since 2017.',
+        'Since 2017',
+        'Be somebody nobody thought you could be.',
         'Everyday is happy :)',
         'Live in Thailand.',
         'Human is amazing.',
@@ -57,8 +61,18 @@ export default {
         'Tomorrow must better.',
         'Thanks to everyone that\'s good with me.',
         'facebook.com/j4m3j4m3',
-        'IG: @jjinjjen',
-        'I want to travel around the world'
+        'instagram.com/jjinjjen',
+        'I want to travel around the world.',
+        'Worry less, Smile more.',
+        'What\'s past is past. Time to move on.',
+        'Have a nice day.',
+        'Hey, you. Don’t give up, okay ?',
+        'It\'s never too late to start again.',
+        'Don’t let your dreams be dreams.',
+        'I don\'t want a perfect life. I want a happy life.',
+        'Never let go of your dream.',
+        'Don’t look for happiness, Creat it.',
+        'You can’t win unless you learn how to lose.'
       ]
     }
   },
