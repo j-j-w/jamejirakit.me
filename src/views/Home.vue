@@ -1,10 +1,10 @@
 <template>
   <div class="home">
-    <div class="row items-center text-h3 text-weight-regular" :style="screenHeight">
-      <div class="col-12 text-center">
+    <div class="row items-center text-h4 text-weight-regular" :style="screenHeight">
+      <div class="col-12 text-center q-px-sm">
         <vue-typer
           :text='texts'
-          repeat='Infinity'
+          :repeat='Infinity'
           shuffle
           initial-action='typing'
           :pre-type-delay='70'
@@ -55,7 +55,6 @@ export default {
         'Parents have given me today.',
         'I have two brothers.',
         'I want to master degree.',
-        'Girlfriend is the best girl.',
         'I love fashion.',
         'github.com/j-j-w',
         'Tomorrow must better.',
