@@ -1,5 +1,5 @@
-# Personal website
-Author : Jirakit Wattanapraphakorn
+# Personal Profile website
+Author : Jirakit Wattanapraphakorn (Jame)
 
 ## Version
 1.0
