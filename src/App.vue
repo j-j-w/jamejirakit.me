@@ -3,8 +3,8 @@
     <q-img
       v-if="$route.name === 'home'"
       no-default-spinner
-      class="absolute-top-left q-ml-lg q-mt-sm"
-      :to="{ name: 'home' }"
+      class="absolute-top-left q-ml-lg q-mt-sm cursor-pointer"
+      @click="$router.replace('/')"
       :src="require('@/assets/jamejirakit.png')"
       style="height: 40px; max-width: 130px"
     />
@@ -21,9 +21,9 @@
         </q-list>
       </q-menu>
     </q-btn>
-    <q-page-container>
-      <router-view />
-    </q-page-container>
+      <q-page-container>
+        <router-view />
+      </q-page-container>
   </q-layout>
 </template>
 
@@ -33,11 +33,18 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
   .font-hack {
-    font-family: 'Hack'
+    font-family: 'Ubuntu', sans-serif;
   }
   .z-index-forward {
     z-index: 9999 !important;
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .2s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
   }
 </style>

@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
-const Profile = () => import(/* webpackChunkName: "profile" */ '@/views/Profile.vue')
+
+import Profile from '@/views/Profile.vue'
+
+import NotFound from '@/views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -15,10 +18,17 @@ const routes = [
     path: '/profile',
     name: 'profile',
     component: Profile
+  },
+  {
+    path: '/*',
+    name: 'notfound',
+    components: NotFound
   }
 ]
 
 const router = new VueRouter({
+  base: process.env.BASE_URL,
+  mode: 'history',
   routes
 })
 

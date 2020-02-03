@@ -1,6 +1,5 @@
 module.exports = {
   outputDir: 'jamejirakit',
-
   pluginOptions: {
     quasar: {
       importStrategy: 'kebab',

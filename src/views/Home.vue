@@ -45,7 +45,7 @@ export default {
         'Since 2017',
         'Be somebody nobody thought you could be.',
         'Everyday is happy :)',
-        'Live in Thailand.',
+        'Live in Bangsare, Chonburi, Thailand.',
         'Human is amazing.',
         '26 year\'s old.',
         'Learning is important.',
