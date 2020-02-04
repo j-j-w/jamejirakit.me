@@ -136,23 +136,25 @@
             </div>
 
             <div class="row text-h4 text-weight-bold q-mt-xl">Contact</div>
-            <div class="row q-col-gutter-md">
-              <div class="col-6">
-                <div class="text-body2 q-mt-sm">
-                  <q-icon name="fas fa-phone" size="xs"></q-icon>
-                  <q-btn class="text-lowercase q-ml-xs text-blue-8" target="_blank" flat type="a" href="tel:+66855529296" label="(+66)855529296" />
-                </div>
-              </div>
-              <div class="col-6">
+            <div class="row q-col-gutter-xs">
+              <div class="col-12">
                 <div class="text-body2 q-mt-sm">
                   <q-icon name="fas fa-envelope" size="xs"></q-icon>
                   <q-btn class="text-lowercase q-ml-xs text-blue-8" target="_blank" flat type="a" href="https://mail.google.com/" label="jw.jirakit@gmail.com" />
                 </div>
               </div>
+              <div class="col-12">
+                <div class="text-body2 q-mt-sm">
+                  <q-icon name="fas fa-phone" size="xs"></q-icon>
+                  <q-btn class="text-lowercase q-ml-xs text-blue-8" target="_blank" flat type="a" href="tel:+66855529296" label="(+66)855529296" />
+                </div>
+              </div>
             </div>
 
-            <div class="row col-12 text-caption q-mt-lg text-grey-7">
-              Copyright &copy; 2020 - Present, Jirakit Wattanapraphakorn
+            <div class="row text-caption q-mt-xl text-grey-7">
+              <div class="col-12 text-center">
+                Copyright &copy; 2020 - Present, Jirakit Wattanapraphakorn
+              </div>
             </div>
           </div>
         </q-scroll-area>
