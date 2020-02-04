@@ -138,7 +138,7 @@
                   type="a" href="https://medium.com/@jamejirakit" />
               </div>
               <div class="col-12 text-center">
-                <q-icon name="fas fa-phone-alt" class="text-caption q-mr-xs"></q-icon>
+                <q-icon name="fas fa-phone" class="text-caption q-mr-xs"></q-icon>
                 <span class="q-mr-md">(+66)855529296</span>
                 <q-icon name="fas fa-envelope" class="text-caption q-mr-xs"></q-icon>
                 jw.jirakit@gmail.com
