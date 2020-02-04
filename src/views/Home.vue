@@ -94,8 +94,8 @@
 
             <div class="row text-h5 text-weight-bold q-mt-lg">Languages</div>
             <div class="row">
-              <template v-for="item in languages">
-                <div :key="item" class="col-4">
+              <template v-for="(item, index) in languages">
+                <div :key="item" :class="index === 1 ? 'col-8' : 'col-4'">
                   <div class="q-py-sm text-body1">• {{ item }}</div>
                 </div>
               </template>
@@ -103,8 +103,8 @@
 
             <div class="row text-h5 text-weight-bold q-mt-xl">Technologies</div>
             <div class="row">
-              <template v-for="item in technologies">
-                <div :key="item" class="col-6">
+              <template v-for="(item, index) in technologies">
+                <div :key="item" :class="index === 0 ? 'col-12' : 'col-6'">
                   <div class="q-py-sm text-body1">• {{ item }}</div>
                 </div>
               </template>
