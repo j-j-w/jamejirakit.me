@@ -3,7 +3,7 @@
 
 Hello, My name is Jirakit Wattanapraphakorn (Jame)
 
-This repo is my personal profile website. If you questions and concerns please contact me jw.jirakit@gmail.com
+This repo is my personal profile website. If you have a questions and concerns please contact me jw.jirakit@gmail.com
 
 ## Version
 1.0
