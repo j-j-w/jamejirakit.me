@@ -133,6 +133,9 @@
                 <q-btn target="_blank" outline color="dark"
                   round flat icon="fab fa-linkedin"
                   type="a" href="https://www.linkedin.com/in/jirakit-wattanapraphakorn-5a8665156/" />
+                <q-btn target="_blank" outline color="dark"
+                  round flat icon="fab fa-medium"
+                  type="a" href="https://medium.com/@jamejirakit" />
               </div>
               <div class="col-12 text-center">
                 <q-icon name="fas fa-mobile-alt" class="text-caption q-mr-xs"></q-icon>
