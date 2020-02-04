@@ -36,15 +36,15 @@
             <q-timeline color="secondary">
               <q-timeline-entry title="Diploma/High Vocational Certificate"
                 subtitle="May, 2011 - Mar, 2013">
-                <div class="text-weight-bold">Thonburi Commercial College</div>
+                <div class="text-weight-bold text-body1">Thonburi Commercial College</div>
                 <div class="text-caption">Business Computer - Web page Computer</div>
                 <div class="text-caption">GPA 2.76</div>
               </q-timeline-entry>
 
               <q-timeline-entry title="Bachelor Degree"
                 subtitle="Jun, 2013 - Aug, 2015">
-                <div class="text-weight-bold">Rajamangala University of Technology Krungthep</div>
-                <div class="text-caption">Business Administrator College - Information System</div>
+                <div class="text-weight-bold text-body1">Rajamangala University of Technology Krungthep</div>
+                <div class="text-caption">Business Administration - Information System</div>
                 <div class="text-caption">GPA 2.53</div>
               </q-timeline-entry>
             </q-timeline>
@@ -53,14 +53,14 @@
             <q-timeline color="secondary">
               <q-timeline-entry title="e-Office Online Co.,Ltd"
                 subtitle="Sep, 2015 - Sep, 2016 (Bangkok, Thailand)">
-                <div class="text-weight-bold">Web Programmer</div>
+                <div class="text-weight-bold text-body1">Web Programmer</div>
                 <div class="text-caption">• Design database and User interface</div>
                 <div class="text-caption">• Develop</div>
               </q-timeline-entry>
 
               <q-timeline-entry title="Taokaenoi Food and Marketing Co.,Ltd"
                 subtitle="Oct, 2016 - Dec, 2017 (Phatum Thani, Thailand)">
-                <div class="text-weight-bold">Applications Developer</div>
+                <div class="text-weight-bold text-body1">Applications Developer</div>
                 <div class="text-caption">• Design database and system from SRS document</div>
                 <div class="text-caption">• Develop</div>
                 <div class="text-caption">• Maintain</div>
@@ -70,7 +70,7 @@
 
               <q-timeline-entry title="Fusion Solution Co.,Ltd"
                 subtitle="Jan, 2018 - Sep, 2018 (Bangkok, Thailand)">
-                <div class="text-weight-bold">Applications Technologies</div>
+                <div class="text-weight-bold text-body1">Applications Technologies</div>
                 <div class="text-caption">• Design database and system from SRS document</div>
                 <div class="text-caption">• Develop</div>
                 <div class="text-caption">• Maintain</div>
@@ -81,7 +81,7 @@
 
               <q-timeline-entry title="Nan Yang Textile Group Co.,Ltd"
                 subtitle="Oct, 2018 - Present (Bangkok, Thailand)">
-                <div class="text-weight-bold">Applications Developer</div>
+                <div class="text-weight-bold text-body1">Applications Developer</div>
                 <div class="text-caption">• Design database, user interface and system</div>
                 <div class="text-caption">• Develop</div>
                 <div class="text-caption">• Maintain</div>
@@ -96,7 +96,7 @@
             <div class="row">
               <template v-for="item in languages">
                 <div :key="item" class="col-4">
-                  <div class="q-py-sm">• {{ item }}</div>
+                  <div class="q-py-sm text-body1">• {{ item }}</div>
                 </div>
               </template>
             </div>
@@ -105,16 +105,16 @@
             <div class="row">
               <template v-for="item in technologies">
                 <div :key="item" class="col-6">
-                  <div class="q-py-sm">• {{ item }}</div>
+                  <div class="q-py-sm text-body1">• {{ item }}</div>
                 </div>
               </template>
             </div>
 
             <div class="row text-h5 text-weight-bold q-mt-xl">Interests</div>
-            <div class="row">
+            <div class="row ">
               <template v-for="item in interests">
                 <div :key="item" class="col-6">
-                  <div class="q-py-sm">• {{ item }}</div>
+                  <div class="q-py-sm text-body1">• {{ item }}</div>
                 </div>
               </template>
             </div>
@@ -138,7 +138,7 @@
                   type="a" href="https://medium.com/@jamejirakit" />
               </div>
               <div class="col-12 text-center">
-                <q-icon name="fas fa-mobile-alt" class="text-caption q-mr-xs"></q-icon>
+                <q-icon name="fas fa-phone-alt" class="text-caption q-mr-xs"></q-icon>
                 <span class="q-mr-md">(+66)855529296</span>
                 <q-icon name="fas fa-envelope" class="text-caption q-mr-xs"></q-icon>
                 jw.jirakit@gmail.com
