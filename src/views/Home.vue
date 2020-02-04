@@ -185,7 +185,7 @@ export default {
         'English (Intermediate)'
       ],
       technologies: [
-        'Javascript (vue, jquery, pure)',
+        'Javascript (vue, react, jquery, pure)',
         'PHP 5.x, 7.x',
         'C#',
         'Python',
