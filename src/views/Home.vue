@@ -22,7 +22,7 @@
         </div>
       </template>
       <div :class="$q.screen.xs || $q.screen.sm ? 'col-12 q-mt-md' : 'col-6'">
-        <q-scroll-area :style="$q.screen.xs || $q.screen.sm ? screenSmHeight : screenHeight">
+        <q-scroll-area :style="screenHeight">
           <div class="q-my-md q-mx-lg">
             <div class="row text-h5 q-mb-sm text-weight-bold">About me</div>
             <div class="row text-body2 q-col-gutter-sm">
@@ -133,9 +133,6 @@
                 <q-btn target="_blank" outline color="dark"
                   round flat icon="fab fa-linkedin"
                   type="a" href="https://www.linkedin.com/in/jirakit-wattanapraphakorn-5a8665156/" />
-                <q-btn target="_blank" outline color="dark"
-                  round flat icon="fab fa-medium"
-                  type="a" href="https://medium.com/@jamejirakit" />
               </div>
               <div class="col-12 text-center">
                 <span>(+66) 855529296</span>
@@ -185,16 +182,18 @@ export default {
       ],
       technologies: [
         'Javascript (vue, react, jquery, pure)',
+        'Python',
         'PHP 5.x, 7.x',
         'C#',
-        'Python',
         'Nodejs',
         'Oracle',
         'SQL Server',
         'MySQL',
-        'Restful Service',
-        'HTML',
-        'CSS',
+        'XML',
+        'JSON',
+        'Restful Web Service',
+        'HTML5',
+        'CSS3',
         'Github',
         'Bitbucket',
         'Docker',
@@ -242,12 +241,7 @@ export default {
     },
     screenHeight () {
       return {
-        height: `${this.$q.screen.height}px`
-      }
-    },
-    screenSmHeight () {
-      return {
-        height: `${this.$q.screen.height - 145}px`
+        height: this.$q.screen.xs || this.$q.screen.sm ? `${this.$q.screen.height - 145}px` : `${this.$q.screen.height}px`
       }
     }
   }
