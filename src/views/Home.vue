@@ -172,9 +172,7 @@ export default {
         '12.jpg',
         '13.jpg',
         '14.jpg',
-        '15.jpg',
-        '16.jpg',
-        '17.jpg'
+        '15.jpg'
       ],
       languages: [
         'Thai (Native)',
