@@ -204,8 +204,8 @@ export default {
       ],
       interests: [
         'Musics',
-        'Games',
-        'Travels',
+        'Gaming',
+        'Traveling',
         'Photography',
         'Learning',
         'Technology & Innovation'
@@ -227,10 +227,6 @@ export default {
     }
   },
   created () {
-    const _this = this
-    _this.shuffleImages()
-  },
-  mounted () {
     const _this = this
     _this.startInterVal()
   },
