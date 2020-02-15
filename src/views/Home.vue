@@ -123,13 +123,13 @@
               <div class="col-12 text-center">
                 <q-btn target="_blank" outline color="dark"
                   round flat icon="fab fa-facebook"
-                  type="a" href="https://facebook.com/j4m3j4m3" />
+                  type="a" href="https://www.facebook.com/j4m3j4m3" />
                 <q-btn target="_blank" outline color="dark"
                   round flat icon="fab fa-instagram"
-                  type="a" href="https://instagram.com/jjinjjen" />
+                  type="a" href="https://www.instagram.com/jjinjjen" />
                 <q-btn target="_blank" outline color="dark"
                   round flat icon="fab fa-github"
-                  type="a" href="https://github.com/j-j-w" />
+                  type="a" href="https://www.github.com/j-j-w" />
                 <q-btn target="_blank" outline color="dark"
                   round flat icon="fab fa-linkedin"
                   type="a" href="https://www.linkedin.com/in/jirakit-wattanapraphakorn-5a8665156/" />
@@ -141,7 +141,7 @@
               </div>
               <div class="col-12 text-center">
                 Copyright &copy; 2020
-                <a class="text-grey-7" href="http://jamejirakit.me">jamejirakit.me</a>
+                <a class="text-grey-7" href="http://www.jamejirakit.me">jamejirakit.me</a>
               </div>
             </div>
           </div>
