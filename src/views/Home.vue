@@ -35,14 +35,14 @@
             <div class="row text-h5 text-weight-bold q-mt-xl">Education</div>
             <q-timeline color="secondary">
               <q-timeline-entry title="Diploma/High Vocational Certificate"
-                subtitle="May, 2011 - Mar, 2013">
+                subtitle="May, 2011 - Mar, 2013 (Bangkok, Thailand)">
                 <div class="text-weight-bold text-body1">Thonburi Commercial College</div>
                 <div class="text-caption">Business Computer - Web page Computer</div>
                 <div class="text-caption">GPA 2.76</div>
               </q-timeline-entry>
 
               <q-timeline-entry title="Bachelor Degree"
-                subtitle="Jun, 2013 - Aug, 2015">
+                subtitle="Jun, 2013 - Aug, 2015 (Bangkok, Thailand)">
                 <div class="text-weight-bold text-body1">Rajamangala University of Technology Krungthep</div>
                 <div class="text-caption">Business Administration - Information System</div>
                 <div class="text-caption">GPA 2.53</div>
