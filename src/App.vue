@@ -10,7 +10,8 @@
 export default {
   name: 'app',
   created () {
-    this.$router.replace('/')
+    // eslint-disable-next-line handle-callback-err
+    this.$router.replace('/').catch(err => {})
   }
 }
 </script>
