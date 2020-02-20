@@ -1,15 +1,14 @@
-# Personal Profile website
-[Public link](http://jamejirakit.me)
+# JAMEJIRAKIT.ME
+Hello, My name is Jame. I have a applications developer with 4 years of programming experience.
+If you need for more information, Please follow link below.
 
-Hello, My name is Jirakit Wattanapraphakorn (Jame)
-
-This repo is my personal profile website. If you have a questions and concerns please contact me jw.jirakit@gmail.com
+[jamejirakit.me](http://jamejirakit.me)
 
 ## Version
 1.0
 
+## Contact
+If you have a questions and concerns please contact me jw.jirakit@gmail.com
+
 ## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2020-present, Jirakit Wattanapraphakorn
+Jirakit Wattanapraphakorn (c) 2020-present
