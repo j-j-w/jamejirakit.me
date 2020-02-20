@@ -9,6 +9,3 @@ If you need for more information, Please follow link below.
 
 ## Contact
 If you have a questions and concerns please contact me jw.jirakit@gmail.com
-
-## License
-Jirakit Wattanapraphakorn (c) 2020-present
