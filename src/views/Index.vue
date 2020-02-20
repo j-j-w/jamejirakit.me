@@ -86,9 +86,9 @@
             <div class="col-12 text-center">Technologies</div>
           </div>
           <div class="row">
-            <template v-for="(item, index) in technologies">
-              <div :key="item" :class="index === 0 ? 'col-12' : 'col-6'">
-                <div class="q-py-sm text-body1">• {{ item }}</div>
+            <template v-for="item in technologies">
+              <div :key="item" class="col-12 text-center">
+                <div class="q-py-sm text-body1">{{ item }}</div>
               </div>
             </template>
           </div>
@@ -96,10 +96,10 @@
           <div class="row text-h4 text-weight-bold q-mt-xl q-mb-md">
             <div class="col-12 text-center">Interested</div>
           </div>
-          <div class="row ">
+          <div class="row">
             <template v-for="item in interests">
-              <div :key="item" class="col-6">
-                <div class="q-py-sm text-body1">• {{ item }}</div>
+              <div :key="item" class="col-12 text-center">
+                <div class="q-py-sm text-body1">{{ item }}</div>
               </div>
             </template>
           </div>
