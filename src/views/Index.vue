@@ -93,17 +93,6 @@
             </template>
           </div>
 
-          <div class="row text-h4 text-weight-bold q-mt-xl q-mb-md">
-            <div class="col-12 text-center">Interested</div>
-          </div>
-          <div class="row">
-            <template v-for="item in interests">
-              <div :key="item" class="col-12 text-center">
-                <div class="q-py-sm text-body1">{{ item }}</div>
-              </div>
-            </template>
-          </div>
-
           <div class="row q-col-gutter-sm text-caption q-mt-xl text-grey-7">
             <div class="col-12 text-center">
               <q-btn target="_blank" outline color="dark"
@@ -159,13 +148,6 @@ export default {
         'Composer',
         'Slack',
         'Trello'
-      ],
-      interests: [
-        'Musics',
-        'Traveling',
-        'Photography',
-        'Learning',
-        'Technology'
       ]
     }
   },
