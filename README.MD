@@ -4,8 +4,12 @@ If you need for more information, Please follow link below.
 
 [jamejirakit.me](http://jamejirakit.me)
 
-## Version
-1.0
+## Installation
+Use the package manager [npm](https://www.npmjs.com/) to install.
+
+```base
+npm install
+```
 
 ## Contact
 If you have a questions and concerns please contact me jw.jirakit@gmail.com
