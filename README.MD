@@ -12,4 +12,4 @@ npm install
 ```
 
 ## Contact
-If you have a questions and concerns please contact me jw.jirakit@gmail.com
+If you have a questions and concerns please contact me jirakit.wa@gmail.com
