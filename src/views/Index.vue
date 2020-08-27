@@ -137,7 +137,7 @@ export default {
           ]
         },
         {
-          companyName: 'Hosting-Group Co.,Ltd (Chonburi, Thailand)',
+          companyName: 'Hosting-Group Co.,Ltd',
           timeline: 'April, 2020 - Present (Chonburi, Thailand)',
           jobTitle: 'Senior Applications Developer',
           responsibilities: [
