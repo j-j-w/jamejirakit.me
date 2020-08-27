@@ -2,7 +2,7 @@
   <div class="portfolio">
     <div class="row">
       <div class="col-12 text-center">
-        <q-avatar size="200px" class="q-mt-lg" rounded>
+        <q-avatar size="170px" class="q-mt-lg" rounded>
           <q-img
             :src="require('@/assets/Jirakit-Profile.jpg')"
             style="height:100%;width:100%"
