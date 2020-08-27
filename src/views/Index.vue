@@ -16,7 +16,7 @@
             <div class="col-12 text-weight-bold text-body1">Jirakit Wattanapraphakorn (Jame)</div>
             <div class="col-12">Applications Developer with {{ experienceYear }} years of programming experience</div>
             <div class="col-12">Live in Chonburi, Thailand</div>
-            <div class="col-12 q-mt-lg text-body2 text-bold">I am application developer. Working on Fullstack Web Application, Service API, Automation tasks, Analyst, Design database relation and structure of coding, Guideline our team, etc.</div>
+            <div class="col-12 q-mt-lg text-body2 text-bold">I am applications developer. Working on Full Stack Web Application, Services API, Automation tasks, Analyst, Design database relation and structure coding, etc.</div>
             <div class="col-12 q-mt-xs text-body2 text-bold">Feel proud of my past experiences but I have to keep in mind that working in the Technology way will never be a talent because Technology will be updated every day.</div>
           </div>
 
@@ -103,7 +103,7 @@ export default {
       experiences: [
         {
           companyName: 'Informatix Plus Co.,Ltd',
-          timeline: 'Sep, 2015 - Sep, 2016 (1 yr 1 mo)',
+          timeline: 'Sep, 2015 - Sep, 2016 (Bangkok, Thailand)',
           jobTitle: 'Web Programmer',
           responsibilities: [
             '• Design database and User interface',
@@ -112,7 +112,7 @@ export default {
         },
         {
           companyName: 'Taokaenoi Food and Marketing Co.,Ltd',
-          timeline: 'Oct, 2016 - Sep, 2018 (2 yrs)',
+          timeline: 'Oct, 2016 - Sep, 2018 (Pathum Thani, Thailand)',
           jobTitle: 'Applications Developer',
           responsibilities: [
             '• Design database and system from SRS document',
@@ -125,7 +125,7 @@ export default {
         },
         {
           companyName: 'Nan Yang Textile Group Co.,Ltd',
-          timeline: 'Oct, 2018 - Mar, 2020 (1 yr 6 mos)',
+          timeline: 'Oct, 2018 - Mar, 2020 (Bangkok, Thailand)',
           jobTitle: 'Applications Developer',
           responsibilities: [
             '• Design database and system from SRS document',
@@ -138,7 +138,7 @@ export default {
         },
         {
           companyName: 'Hosting-Group Co.,Ltd (Chonburi, Thailand)',
-          timeline: 'April, 2020 - Present (5 mos)',
+          timeline: 'April, 2020 - Present (Chonburi, Thailand)',
           jobTitle: 'Senior Applications Developer',
           responsibilities: [
             '• Develop web applications from requirements',
