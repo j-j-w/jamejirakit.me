@@ -160,7 +160,8 @@ export default {
         'HTML • CSS',
         'Nuget • npm • Composer',
         'Slack • Trello',
-        'Git • Azure DevOps'
+        'Git • Azure DevOps',
+        'Postman • Swagger'
       ]
     }
   },
