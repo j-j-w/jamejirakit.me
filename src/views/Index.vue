@@ -18,7 +18,6 @@
             <div class="col-12">Live in Chonburi, Thailand</div>
             <div class="col-12 q-mt-lg text-body2 text-bold">I am application developer. Working on Fullstack Web Application, Service API, Automation tasks, Analyst, Design database relation and structure of coding, Guideline our team, etc.</div>
             <div class="col-12 q-mt-xs text-body2 text-bold">Feel proud of my past experiences but I have to keep in mind that working in the Technology way will never be a talent because Technology is updated every day.</div>
-            <div class="col-12 text-body1 text-bold q-mt-lg">Please always learning, not live perfectly. (tell myself)</div>
           </div>
 
           <q-separator inset />
