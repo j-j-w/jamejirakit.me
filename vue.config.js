@@ -1,4 +1,5 @@
 module.exports = {
+  productionSourceMap: false,
   outputDir: 'jamejirakit',
   pluginOptions: {
     quasar: {
@@ -6,7 +7,6 @@ module.exports = {
       rtlSupport: false
     }
   },
-
   transpileDependencies: [
     'quasar'
   ]

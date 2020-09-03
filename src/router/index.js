@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from '@/views/Index.vue'
-import NotFound from '@/views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -14,7 +13,7 @@ const routes = [
   {
     path: '/*',
     name: 'notfound',
-    components: NotFound
+    redirect: { name: 'index' }
   }
 ]
 
